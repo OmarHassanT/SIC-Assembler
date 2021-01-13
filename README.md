@@ -1,13 +1,12 @@
 # SIC-Assembler
-PROJECT NAME : SicAssember V13.00
+PROJECT NAME : SicAssember 
 
 OBJECTIVES:
 -Implementing an assembler for the SIC hypothetical machine
--Improving programming skills
+
 
 PROJECT DESCRIPTION:
 The project is a simulation to the assembler of the SIC hypothetical machine.
-Students should implement both Pass1 and Pass2 of the SIC assembler language.
 
 Your assembler should consider all the issues:
 - Directives: START, END, BYTE, WORD, RESB, RESW, LTORG
@@ -34,9 +33,5 @@ Columns: 1-8 Label
 17-35 Operand
 36-66 Comment
 
-If your project does not have a GUI, then you should specify all the arguments well
-to the command prompt as follow (Assuming executable version stored on the C partition):
-C:\> pass1 cource_file.asm intmdte_file.mdt
-C:\> pass2 intmdte_file.mdt output_file.obj
-Your assembler can stop execution if there are errors in Pass 1, and should indicate
+Assembler can stop execution if there are errors in Pass 1, and should indicate
 its termination with appropriate messages.
